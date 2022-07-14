@@ -1,0 +1,47 @@
+body{
+    background-color: darkblue;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 56%;
+    height: 66%;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+    margin: 16rem 23rem;
+    box-shadow: 10px 10px 20px greenyellow;
+}
+.header{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    width: 33%;
+    font-weight: bold;
+}
+input{
+    border: none;
+    background-color: rgb(244, 244, 180);
+    width: 32rem;
+    height: 1.75rem;
+    text-align: center;
+    border-radius: 4px;
+
+}
+input:hover{
+    border: 1px solid greenyellow;
+    background-color: none;
+}
+.show{
+    /* display: none; */
+    cursor: pointer;
+    position: relative;
+    left: -3.875rem;
+}
+#togglePassword{
+    position: relative;
+    left: -2.31rem;
+}
